@@ -4,7 +4,7 @@
 #### The project demonstrates the use of probabilistic scoring, dataset training, text preprocessing, MongoDB database integration, graphical visualization, and a user-friendly Tkinter GUI design.
 #### This system is suitable for educational purposes, research projects, and media platforms where automated fake news detection and analysis are required.
 # REPOSITORY STRUCTURE
- ---
+  ```
  
  fake-news-probability-scoring-system/
 │
@@ -34,7 +34,7 @@
 ├── README.md
 ├── LICENSE
 └── .gitignore
-  ---
+   ```
   
 # Getting Started
 
@@ -58,7 +58,7 @@ Make sure the following are installed on your system:
 
 ```bash
 git clone <your-github-repo-link>
-```
+ 
 
 2. Navigate to the project folder:
 
