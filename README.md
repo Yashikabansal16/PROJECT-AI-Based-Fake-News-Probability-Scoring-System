@@ -58,7 +58,7 @@ Make sure the following are installed on your system:
 
 ```bash
 git clone <your-github-repo-link>
- 
+```
 
 2. Navigate to the project folder:
 
@@ -87,4 +87,5 @@ python main.py
 * Click on **Analyze News**
 * View prediction results and probability score
 * Use Graph and Data buttons for visualization and stored records
+
 
