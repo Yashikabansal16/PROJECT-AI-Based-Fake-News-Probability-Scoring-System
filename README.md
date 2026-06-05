@@ -6,34 +6,67 @@
 # REPOSITORY STRUCTURE
   ```
  
- fake-news-probability-scoring-system/
+AI-Based-Fake-News-Probability-Scoring-System/
 │
-├── assets/
-│   ├── screenshots/
-│   │   ├── home.png
-│   │   ├── graph.png
-│   │   └── dataset_loaded.png
-│   └── logo.png
+|-- src/
+│     |-- main.py
+│     |-- predictor.py
+│     |-- preprocessing.py
+│     |-- visualization.py
+│     |-- database.py
+│     |-- utils.py
 │
-├── dataset/
-│   └── news_dataset.csv
+|-- models/
+│     |-- trained_model.pkl
+│     |-- vocabulary.pkl
 │
-├── docs/
-│   ├── project_report.pdf
-│   └── presentation.pptx
+|-- dataset/
+│     |-- fake_news_dataset.csv
+│     |-- sample_dataset.xlsx
 │
-├── src/
-│   ├── main.py
-│   ├── database.py
-│   ├── predictor.py
-│   ├── preprocessing.py
-│   ├── visualization.py
-│   └── utils.py
+|-- docs/
+│     |-- PROJECT_REPORT.pdf
+│     |-- Presentation.pptx
+│     |-- System_Architecture.png
+│     |-- Flowchart.png
+│     |-- Algorithm.txt
+│     |-- Research_Paper.pdf
 │
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
+|-- assets/
+│     |-- home_screen.png
+│     |-- dataset_loaded.png
+│     |-- prediction_real.png
+│     |-- prediction_fake.png
+│     |-- graph_analysis.png
+│     |-- database_records.png
+│     |-- logo.png
+│     |-- banner.png
+│
+|-- data/
+│     |-- stored_predictions.json
+│     |-- mongodb_backup.json
+│
+|-- sample_input/
+│     |-- sample1.txt
+│     |-- sample2.txt
+│     |-- sample3.txt
+│     |-- sample4.txt
+│
+|-- tests/
+│     |-- test_prediction.py
+│     |-- test_database.py
+│
+|-- .github/
+│     |-- workflows/
+│           |-- python-app.yml
+│
+|-- requirements.txt
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- CONTRIBUTING.md
+|-- CODE_OF_CONDUCT.md
+
    ```
   
 # Getting Started
