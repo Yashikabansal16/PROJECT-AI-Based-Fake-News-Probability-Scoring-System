@@ -3,6 +3,39 @@
 #### The AI Based Fake News Probability Scoring System is a Python-based application designed to detect and classify news articles as REAL or FAKE using Machine Learning and Natural Language Processing techniques.
 #### The project demonstrates the use of probabilistic scoring, dataset training, text preprocessing, MongoDB database integration, graphical visualization, and a user-friendly Tkinter GUI design.
 #### This system is suitable for educational purposes, research projects, and media platforms where automated fake news detection and analysis are required.
+# REPOSITORY STRUCTURE
+ ---
+ 
+ fake-news-probability-scoring-system/
+│
+├── assets/
+│   ├── screenshots/
+│   │   ├── home.png
+│   │   ├── graph.png
+│   │   └── dataset_loaded.png
+│   └── logo.png
+│
+├── dataset/
+│   └── news_dataset.csv
+│
+├── docs/
+│   ├── project_report.pdf
+│   └── presentation.pptx
+│
+├── src/
+│   ├── main.py
+│   ├── database.py
+│   ├── predictor.py
+│   ├── preprocessing.py
+│   ├── visualization.py
+│   └── utils.py
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+  ---
+  
 # Getting Started
 
 ## Prerequisites
