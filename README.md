@@ -16,10 +16,6 @@ AI-Based-Fake-News-Probability-Scoring-System/
 │     |-- database.py
 │     |-- utils.py
 │
-|-- models/
-│     |-- trained_model.pkl
-│     |-- vocabulary.pkl
-│
 |-- dataset/
 │     |-- fake_news_dataset.csv
 │     |-- sample_dataset.xlsx
