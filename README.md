@@ -17,8 +17,7 @@ AI-Based-Fake-News-Probability-Scoring-System/
 │     |-- utils.py
 │
 |-- dataset/
-│     |-- fake_news_dataset.csv
-│     |-- sample_dataset.xlsx
+│     |-- combined_news.csv
 │
 |-- docs/
 │     |-- PROJECT_REPORT.pdf
