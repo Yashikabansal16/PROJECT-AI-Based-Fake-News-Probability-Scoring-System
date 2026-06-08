@@ -39,16 +39,7 @@ AI-Based-Fake-News-Probability-Scoring-System/
 │     |-- test_prediction.py
 │     |-- test_database.py
 │
-|-- .github/
-│     |-- workflows/
-│           |-- python-app.yml
-│
-|-- requirements.txt
 |-- README.md
-|-- LICENSE
-|-- .gitignore
-|-- CONTRIBUTING.md
-|-- CODE_OF_CONDUCT.md
 
    ```
   
