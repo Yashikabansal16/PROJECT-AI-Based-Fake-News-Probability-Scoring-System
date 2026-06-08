@@ -35,12 +35,6 @@ AI-Based-Fake-News-Probability-Scoring-System/
 │     |-- graph_analysis.png
 │     |-- database_records.png
 │
-|-- sample_input/
-│     |-- sample1.txt
-│     |-- sample2.txt
-│     |-- sample3.txt
-│     |-- sample4.txt
-│
 |-- tests/
 │     |-- test_prediction.py
 │     |-- test_database.py
