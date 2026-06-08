@@ -22,10 +22,10 @@ AI-Based-Fake-News-Probability-Scoring-System/
 |-- docs/
 │     |-- PROJECT_REPORT.pdf
 │     |-- Presentation.pptx
-│     |-- System_Architecture.png
-│     |-- Flowchart.png
+│     |-- System Architecture.png
+│     |-- Flowchart.jpeg
 │     |-- Algorithm.txt
-│     |-- Research_Paper.pdf
+│     |-- Algorithm.jpeg
 │
 |-- assets/
 │     |-- home_screen.png
