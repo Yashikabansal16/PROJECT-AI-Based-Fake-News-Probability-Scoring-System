@@ -34,12 +34,6 @@ AI-Based-Fake-News-Probability-Scoring-System/
 │     |-- prediction_fake.png
 │     |-- graph_analysis.png
 │     |-- database_records.png
-│     |-- logo.png
-│     |-- banner.png
-│
-|-- data/
-│     |-- stored_predictions.json
-│     |-- mongodb_backup.json
 │
 |-- sample_input/
 │     |-- sample1.txt
