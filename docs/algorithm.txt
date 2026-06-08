@@ -1,0 +1,137 @@
+ALGORITHM – FAKE NEWS DETECTION SYSTEM
+
+1. INITIALIZATION
+
+---
+
+1. Start the system.
+
+2. Connect to MongoDB database.
+
+3. Initialize variables:
+
+   * fake_words
+   * real_words
+   * fake_total
+   * real_total
+   * V
+   * session_data
+
+4. LOAD DATASET
+
+---
+
+1. Open file dialog and select CSV/Excel dataset.
+
+2. Read dataset using Pandas.
+
+3. For each row in dataset:
+   a) Extract text and label.
+   b) Clean text:
+
+   * Convert to lowercase
+   * Remove special characters
+   * Tokenize words
+     c) If label = FAKE:
+   * Update fake_words
+   * Increase fake_total
+     d) Else:
+   * Update real_words
+   * Increase real_total
+
+4. Compute vocabulary size V.
+
+5. Store total row count.
+
+6. Display “Dataset Loaded” status.
+
+7. PREDICT NEWS (ANALYZE)
+
+---
+
+1. Get news text from user input.
+
+2. If input is empty:
+
+   * Show warning message.
+
+3. If dataset is not loaded:
+
+   * Show warning message.
+
+4. Clean and preprocess input text.
+
+5. Initialize log probabilities:
+
+   * log_fake
+   * log_real
+
+6. For each word in input text:
+   a) Calculate fake probability.
+   b) Calculate real probability.
+
+7. Apply Laplace smoothing.
+
+8. Convert log probabilities to normal probabilities.
+
+9. Calculate percentage scores:
+
+   * fake_percent
+   * real_percent
+
+10. If fake_percent > real_percent:
+
+    * Result = FAKE
+
+11. Else:
+
+    * Result = REAL
+
+12. Store prediction result in MongoDB.
+
+13. Display result with confidence percentage.
+
+14. OTHER OPTIONS
+
+---
+
+a) SHOW GRAPH
+
+1. Count FAKE and REAL predictions.
+2. Generate bar graph using Matplotlib.
+3. Display graph.
+
+b) SHOW DATA
+
+1. Fetch stored records from MongoDB.
+2. Display prediction history.
+
+c) CLEAR INPUT
+
+1. Clear text input field.
+2. Clear result label.
+
+d) CLEAR GRAPH
+
+1. Clear session graph data.
+2. Show confirmation message.
+
+e) CLEAR DATABASE
+
+1. Delete all records from MongoDB.
+2. Show confirmation message.
+
+f) CLEAR DATASET
+
+1. Reset all dataset variables.
+
+2. Clear dataset from memory.
+
+3. Show dataset cleared status.
+
+4. TERMINATION
+
+---
+
+1. System runs until user closes the application.
+2. End program.
